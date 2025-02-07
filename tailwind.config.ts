@@ -11,6 +11,9 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        wine: "var(--wine-red)",
+        golden: "var(--golden)",
+        dark: "var(--dark)"
       },
     },
   },
