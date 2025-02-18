@@ -32,6 +32,10 @@ export default async function Categoria(){
                 <h2 className="mt-8 font-bold text-xl">Categorias Cadastradas</h2>
 
                 <ul className="my-4 flex flex-col gap-3">
+                    {categoryList.length === 0 && (
+                        <span className="text-gray-400">Nenhuma categoria cadastrada.</span>
+                    )}
+
                     {categoryList.map( category => (
                         <Card key={category.id} category={category} />
                     ))}
