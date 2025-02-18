@@ -10,6 +10,8 @@ export default function Home(){
         src={logoImg}
         alt="Logo Arte de Gusto"
         width={175}
+        priority={true}
+        quality={100}
       />
 
       <section className="w-72 sm:w-96 mt-6 flex flex-col items-center gap-4">
