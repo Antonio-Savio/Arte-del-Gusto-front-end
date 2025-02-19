@@ -3,7 +3,7 @@ import { formatPrice } from "./formatPrice";
 
 export function calculateTotalPrice(orders: OrdermItemProps[]){
     const totalPrice = orders.reduce((total, order) => {
-        return total + parseFloat(order.product.price) * order.amount
+        return total + parseFloat(order.product.price.replace(",", ".")) * order.amount
     }, 0)
     
     return formatPrice(totalPrice)

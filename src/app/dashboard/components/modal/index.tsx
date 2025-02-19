@@ -32,7 +32,7 @@ export function ModalOrder(){
                             <p>
                                 <span><strong>{order.product.name}</strong></span>
                                 <span> - Qtd: {order.amount} - </span>
-                                <span>{formatPrice(parseFloat(order.product.price) * order.amount)}</span>
+                                <span>{formatPrice(parseFloat(order.product.price.replace(",", ".")) * order.amount)}</span>
                             </p>
                             <p className="text-gray-400">{order.product.description}</p>
                         </li>
