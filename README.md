@@ -16,6 +16,8 @@ O painel web oferece uma experiência de usuário fluida e responsiva, integrand
 ## 🌐 Sistema em funcionamento
 - Demonstração da aplicação web sendo executada junto ao aplicativo móvel:
 
+https://github.com/user-attachments/assets/d7dc0bc8-0596-45bd-b8af-bff063e71498
+
 <img src="./public/arte-del-gusto.gif" alt="GIF mostrando o funcionamento do app e front-end">
 
 ---
